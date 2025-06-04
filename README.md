@@ -1,4 +1,4 @@
-# 📝 Blog Post Manager
+# 📝 Blog Post Manager - 23951A0562
 
 A responsive, client-side blogging tool built with **HTML**, **CSS**, and **vanilla JavaScript**. It allows users to create, edit, delete, and view blog posts—all styled with a modern UI and powered by real-time **Markdown rendering** using [Marked.js](https://github.com/markedjs/marked).
 

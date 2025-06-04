@@ -1,0 +1,117 @@
+/* Font and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  padding: 0 1rem;
+}
+
+header {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Section styles */
+section {
+  background: white;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #444;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+/* Inputs and buttons */
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  border-color: #6a11cb;
+  outline: none;
+}
+
+button {
+  background: #6a11cb;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+  margin-right: 0.5rem;
+}
+
+button:hover {
+  background: #4e07a0;
+}
+
+/* Post cards */
+.post {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #6a11cb;
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.post h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+  color: #2c2c2c;
+}
+
+.post p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 1.5rem;
+  }
+
+  input, textarea {
+    font-size: 0.95rem;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
